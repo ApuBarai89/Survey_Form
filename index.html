@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="set1">
+      <img class="MAADURGA"src="image/MAADURGA-modified.png" alt="MAADURGA">
+      <h1>Durga Puja Mondir Committee</h1>
+    </div>
+
+      <form class="form" action="index.html" method="post">
+        <div class="form-con">
+          <label for="fname">Name</label>
+          <input type="text" name="fname" placeholder="enter your Name">
+        </div>
+        <div class="form-con">
+          <label for="email">Email</label>
+          <input type="text"placeholder="enter your email">
+        </div>
+        <div class="form-con">
+          <label for="number">Mobile Number</label>
+          <input type="Mobilenumber"placeholder="enter your Number">
+        </div>
+        <div class="form-con">
+          <label for="age">Age</label>
+          <input type="text" name="fname" placeholder="enter your Age">
+        </div>
+        <div class="form-con">
+          <label for="role">Come with your</label>
+          <select class="role" name="role">
+            <option value="Family">Family</option>
+            <option value="Friends">Friends</option>
+            <option value="Single">Single</option>
+          </select>
+        </div>
+        <div class="form-con">
+          <label>Did you get Prasad?</label>
+
+          <label for="recommed-1">
+            <input type="radio" name="recommed">Yes</input>
+          </label>
+          <label for="recommed-2">
+            <input type="radio" name="recommed">No</input>
+          </label>
+        </div>
+        <div class="form-con">
+          <label>Want to donate something to the temple?</label>
+          <label for="recommed-1">
+            <input type="radio" name="recommed">Yes</input>
+            <div class="form-con">
+              <br>
+              <label>Donate:</label>
+              <input type="text" placeholder="enter your amount">
+            </div>
+          </label>
+          <label for="recommed-2">
+            <input type="radio" name="recommed">No</input>
+          </label>
+        </div>
+
+        <div class="form-con">
+          <label for="comment">Any comments or suggestions</label>
+          <textarea name="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+      </form>
+
+  </body>
+</html>
